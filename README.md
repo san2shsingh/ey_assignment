@@ -2,8 +2,6 @@
 Python Assignment:
 1.	Task is to set up a FastAPI project and create an endpoint with request and response validation using Pydantic models. 
 2.	Implement the logic to perform addition on input lists of integers using Python's multiprocessing pool, with appropriate error handling and logging for debugging and monitoring activities.
-3.	Write unit tests for all edge cases and scenarios.
-4.	Additionally, please organize your project structure following the MVC (Model-View-Controller) format.
 
 > The request format should be as follows:
 {
