@@ -3,18 +3,18 @@ Python Assignment:
 1.	Task is to set up a FastAPI project and create an endpoint with request and response validation using Pydantic models. 
 2.	Implement the logic to perform addition on input lists of integers using Python's multiprocessing pool, with appropriate error handling and logging for debugging and monitoring activities.
 
-> The request format should be as follows:
+> The request format should be as follows: 
 {
-    "batchid":"id0101"
+    "batchid":"id0101",
     "payload":[[1,2],[3,4]]
 }
 
 > The response format should be as follows:
 {
-    "batchid":"id0101"
-    "response":[3,7]
-    "status":"completed"
-    "started_at":"<timestamp>"
+    "batchid":"id0101",
+    "response":[3,7],
+    "status":"completed",
+    "started_at":"<timestamp>",
     "completed_at":"<timestamp>"
 }
 

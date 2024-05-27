@@ -1,4 +1,3 @@
- # app/main.py
 from fastapi import FastAPI
 from app.controllers.addition_controller import router as addition_router
 
